@@ -84,7 +84,7 @@ export function MenuSection() {
     return <span className="text-lg font-bold text-[#ea1758] whitespace-nowrap">{price}</span>;
   };
 
-const menuData = {
+  const menuData = {
   appetizers: [
     { 
       category: 'appetizers',
@@ -211,218 +211,218 @@ const menuData = {
     },
   ],
   aLaCarta: [
-    { name: "1. Enchilada", description: "", price: "$4.25" },
-    { name: "2. Chile Con Carne", description: "", price: "$4.50" },
-    { name: "3. Chile Relleno", description: "", price: "$5.50" },
+    { name: "1. Enchilada", description: "", price: "$4.50" },
+    { name: "2. Chile Con Carne", description: "", price: "$4.75" },
+    { name: "3. Chile Relleno", description: "", price: "$5.75" },
     { name: "4. Chalupa Fiesta", description: "", price: "$9.00" },
-    { name: "5. Chalupa", description: "", price: "$4.50" },
-    { name: "6. Arroz (Rice)", description: "", price: "$3.50" },
-    { name: "7. Frijoles (Beans)", description: "", price: "$3.50" },
-    { name: "8. Tamale", description: "", price: "$4.50" },
-    { name: "9. Quesadilla", description: "", price: "$5.75" },
-    { name: "10. Tostada", description: "", price: "$6.00" },
-    { name: "11. Burrito", description: "", price: "$5.75" },
-    { name: "12. Shrimp Quesadilla", description: "", price: "$10.50" },
-    { name: "13. Taco", description: "", price: "$3.50" },
-    { name: "14. Fajita Quesadilla", description: "", price: "$10.00" },
-    { name: "15. Flauta", description: "", price: "$4.50" },
-    { name: "16. Enchilada Burrito", description: "", price: "$6.75" }
+    { name: "5. Chalupa", description: "", price: "$4.75" },
+    { name: "6. Arroz (Rice)", description: "", price: "$3.75" },
+    { name: "7. Frijoles (Beans)", description: "", price: "$3.75" },
+    { name: "8. Tamale", description: "", price: "$4.75" },
+    { name: "9. Quesadilla", description: "", price: "$6.00" },
+    { name: "10. Tostada", description: "", price: "$6.25" },
+    { name: "11. Burrito", description: "", price: "$6.00" },
+    { name: "12. Shrimp Quesadilla", description: "", price: "$11.00" },
+    { name: "13. Taco", description: "", price: "$3.75" },
+    { name: "14. Fajita Quesadilla", description: "", price: "$11.00" },
+    { name: "15. Flauta", description: "", price: "$5.00" },
+    { name: "16. Enchilada Burrito", description: "", price: "$7.00" }
   ],
   vegetarianAndChicken: [
     { 
       category: 'vegetarian',
       name: "17. Plato Vegetariano", 
       description: "Cheese chile relleno, enchilada, chalupa, rice, beans", 
-      price: "$14" 
+      price: "$15" 
     },
     { 
       category: 'vegetarian',
       name: "18. Enchiladas Rancheras", 
       description: "Three cheese/onion enchiladas, salad", 
-      price: "$13" 
+      price: "$14" 
     },
     { 
       category: 'vegetarian',
       name: "19. Plato Rustico", 
       description: "Bean burrito, cheese enchilada, rice", 
-      price: "$11" 
+      price: "$12" 
     },
     { 
       category: 'vegetarian',
       name: "20. Chalupas Mexicanas", 
       description: "Two chalupas, beans, lettuce, tomato, guacamole", 
-      price: "$9" 
+      price: "$10" 
     },
     { 
       category: 'vegetarian',
       name: "Fajitas Vegetarianas", 
       description: "sauted onions, bell peppers, tomato, cauliflower, mushrooms, carrots, broccoli, rice, beans, guacamole salad, tortillas", 
-      price: "$16" 
+      price: "$17" 
     },
     { 
       category: 'vegetarian',
       name: "QV. Quesadillas Vegetarianas", 
       description: "sauteed onions, bell peppers, mushrooms, tomato, melted cheese, pico de galo, side salad", 
-      price: "$14" 
+      price: "$15" 
     },
     { 
       category: 'vegetarian',
       name: "VC. Plato Combinado", 
       description: "cheese quesadillas, chalupa, bean burrito", 
-      price: "$13" 
+      price: "$14" 
     },
     { 
       category: 'vegetarian',
       name: "Spinach Quesadillas", 
       description: "sauteed spinach, cheese, side salad", 
-      price: "$14" 
+      price: "$15" 
     },
     // De La Granja Subsection
     { 
       category: 'granja',
       name: "21. Enchiladas De Pollo", 
       description: "Three chicken enchiladas, cheese, salad", 
-      price: "$13" 
+      price: "$14" 
     },
     { 
       category: 'granja',
       name: "22. Flautas Mexicanas", 
       description: "Four chicken flautas, lettuce, tomato, sour cream", 
-      price: "$15" 
+      price: "$17" 
     },
     { 
       category: 'granja',
       name: "23. Tacos De Pollo", 
       description: "Three crunchy chicken tacos, lettuce, cheese", 
-      price: "$10" 
+      price: "$11" 
     },
     { 
       category: 'granja',
       name: "24. Quesadillas De La Granja", 
       description: "Two chicken quesadillas, side salad", 
-      price: "$14" 
+      price: "$15" 
     }
   ],
   platosMexicanos: [
-    { name: "25. Enchiladas Supreme", description: "one chicken, one cheese, one beef, and one bean enchilada, salsa, lettuce, tomato, cheese, sour cream", price: "$15" },
-    { name: "26. Chiles Rellenos", description: "Two stuffed beef and cheese mexican chiles, guacamole salad", price: "$14" },
-    { name: "27. Burrito Supreme", description: "Ground beef, beans, melted cheese, lettuce,tomato, sour cream, guacamole", price: "$13" },
-    { name: "28. Enchilada Dinner", description: "Two enchiladas (your choice), rice, beans", price: "$13" },
-    { name: "29. Casa Special", description: "Grilled chicken, rice, melted cheese", price: "$14" },
-    { name: "30. Burrito Don Nacho", description: "Steak, grilled chicken, shrimp, chorizo, melted cheese", price: "$20" },
-    { name: "31. Sandwich De Fajita", description: "Steak, sauteed onions, bell peppers, mushrooms, cheese, hoagie roll, french fries", price: "$15" },
-    { name: "32. Tacos Al Pastor (4)", description: "Marinated pork, pineapple, onions, cilantro, salsa verde, lime", price: "$17" },
-    { name: "33. Plato Fiesta", description: "Chile relleno, beef enchilada, beef burrito, beef taco, chicken flauta, and beef tostada", price: "$18" },
-    { name: "34. Fajita Quesadillas", description: "Two quesadillas (steak or chicken),sauteed bell peppers, onions, melted chese, side salad", price: "$20" },
-    { name: "35. Carnitas", description: "Deep fried beer marinated port chunks, rice, beans, pico de gallo, salsa verde, tortillas", price: "$15" },
-    { name: "36. Tacos", description: "Three crunchy ground beef tacos, lettuce, cheese", price: "$10" },
-    { name: "37. Burrito Blanco", description: "Steak, sauteed mushrooms, onions, cheese", price: "$16" },
-    { name: "38. Chimichanga Dinner", description: "(Beef or chicken), fried tortilla, melted cheese, lettuce, tomato, sour cream, rice, beans", price: "$14" },
-    { name: "39. Hot & Spicy Burrito", description: "Ground beef, rice, beans, chili con carne, melted cheese, sour cream", price: "$15" },
-    { name: "40. Chimichanga", description: "(Beef or chicken), fried tortilla, salsa, lettuce, tomato, guacamole, sour cream", price: "$13" },
-    { name: "41. Enchiladas Verdes", description: "Three chicken enchiladas, melted cheese, salsa verde, lettuce, tomato, sour cream", price: "$13" },
-    { name: "42. Fish Tacos", description: "Three fried tilapia tacos, pico de gallo, red cabbage, chipotle salsa", price: "$13" },
-    { name: "43. Mole Poblano", description: "Shredded chicken, mole sauce, sesame seeds, rice, beans, tortillas", price: "$14" },
-    { name: "44. Tostada De Pollo", description: "Fried tortilla, shredded chicken, lettuce, tomato, cheese, sour cream", price: "$12" },
-    { name: "45. Vieja Quesadilla", description: "Grilled chicken,sauteed onions, bell peppers, spinach, salsa verde, cheese, pico de gallo, guacamole, sour cream", price: "$15" },
-    { name: "46. Burrito Verde", description: "(Grilled chicken or steak), sauteed bell peppers, onions, melted cheese, salsa verde, rice, beans", price: "$14" },
-    { name: "47. Chilaquiles", description: "Tortillas, salsa roja, two eggs, queso fresco, crema, onions, salsa verde, rice, beans", price: "$13" },
-    { name: "48. Tacos De Carne Asada", description: "Marinated steak, corn tortillas, pico de gallo, salsa verde, rice, beans", price: "$16" },
-    { name: "49. Grilled Chicken Strips", description: "An adult portion of the grilled chicken strips and fries", price: "$14" }
+    { name: "25. Enchiladas Supreme", description: "one chicken, one cheese, one beef, and one bean enchilada, salsa, lettuce, tomato, cheese, sour cream", price: "$16" },
+    { name: "26. Chiles Rellenos", description: "Two stuffed beef and cheese mexican chiles, guacamole salad", price: "$15" },
+    { name: "27. Burrito Supreme", description: "Ground beef, beans, melted cheese, lettuce,tomato, sour cream, guacamole", price: "$14" },
+    { name: "28. Enchilada Dinner", description: "Two enchiladas (your choice), rice, beans", price: "$14" },
+    { name: "29. Casa Special", description: "Grilled chicken, rice, melted cheese", price: "$15" },
+    { name: "30. Burrito Don Nacho", description: "Steak, grilled chicken, shrimp, chorizo, melted cheese", price: "$22" },
+    { name: "31. Sandwich De Fajita", description: "Steak, sauteed onions, bell peppers, mushrooms, cheese, hoagie roll, french fries", price: "$16" },
+    { name: "32. Tacos Al Pastor (4)", description: "Marinated pork, pineapple, onions, cilantro, salsa verde, lime", price: "$18" },
+    { name: "33. Plato Fiesta", description: "Chile relleno, beef enchilada, beef burrito, beef taco, chicken flauta, and beef tostada", price: "$19" },
+    { name: "34. Fajita Quesadillas", description: "Two quesadillas (steak or chicken),sauteed bell peppers, onions, melted chese, side salad", price: "$21" },
+    { name: "35. Carnitas", description: "Deep fried beer marinated port chunks, rice, beans, pico de gallo, salsa verde, tortillas", price: "$16" },
+    { name: "36. Tacos", description: "Three crunchy ground beef tacos, lettuce, cheese", price: "$11" },
+    { name: "37. Burrito Blanco", description: "Steak, sauteed mushrooms, onions, cheese", price: "$17" },
+    { name: "38. Chimichanga Dinner", description: "(Beef or chicken), fried tortilla, melted cheese, lettuce, tomato, sour cream, rice, beans", price: "$15" },
+    { name: "39. Hot & Spicy Burrito", description: "Ground beef, rice, beans, chili con carne, melted cheese, sour cream", price: "$16" },
+    { name: "40. Chimichanga", description: "(Beef or chicken), fried tortilla, salsa, lettuce, tomato, guacamole, sour cream", price: "$14" },
+    { name: "41. Enchiladas Verdes", description: "Three chicken enchiladas, melted cheese, salsa verde, lettuce, tomato, sour cream", price: "$14" },
+    { name: "42. Fish Tacos", description: "Three fried tilapia tacos, pico de gallo, red cabbage, chipotle salsa", price: "$14" },
+    { name: "43. Mole Poblano", description: "Shredded chicken, mole sauce, sesame seeds, rice, beans, tortillas", price: "$15" },
+    { name: "44. Tostada De Pollo", description: "Fried tortilla, shredded chicken, lettuce, tomato, cheese, sour cream", price: "$13" },
+    { name: "45. Vieja Quesadilla", description: "Grilled chicken,sauteed onions, bell peppers, spinach, salsa verde, cheese, pico de gallo, guacamole, sour cream", price: "$16" },
+    { name: "46. Burrito Verde", description: "(Grilled chicken or steak), sauteed bell peppers, onions, melted cheese, salsa verde, rice, beans", price: "$15" },
+    { name: "47. Chilaquiles", description: "Tortillas, salsa roja, two eggs, queso fresco, crema, onions, salsa verde, rice, beans", price: "$14" },
+    { name: "48. Tacos De Carne Asada", description: "Marinated steak, corn tortillas, pico de gallo, salsa verde, rice, beans", price: "$17" },
+    { name: "49. Grilled Chicken Strips", description: "An adult portion of the grilled chicken strips and fries", price: "$15" }
   ],
   combinations: [
-    { name: "Combination A", description: "Taco, Enchilada, Rice, + Beans", price: "$11.95" },
-    { name: "Combination B", description: "Chile Relleno, Rice, + Beans", price: "$11.75" },
-    { name: "Combination C", description: "Cheese Enchilada, Rice, + Beans", price: "$10.25" },
-    { name: "Combination D", description: "Taco, Enchilada, + Burrito", price: "$11.95" },
-    { name: "Combination E", description: "Chile Relleno, Taco, Enchilada, Rice, + Beans", price: "$14.50" },
-    { name: "Combination F", description: "Chalupa, Taco, Rice, + Beans", price: "$11.95" },
-    { name: "Combination G", description: "Two Beef Enchiladas, Taco, + Beans", price: "$11.95" },
-    { name: "Combination H", description: "Guacamole Tostada, Enchilada, Rice, + Beans", price: "$11.75" },
-    { name: "Combination I", description: "Enchilada, Burrito, Rice, + Beans", price: "$12.75" },
-    { name: "Combination J", description: "Burrito, Rice, + Beans", price: "$11.50" },
-    { name: "Combination K", description: "Burrito, Chalupa, Enchilada, + Taco", price: "$12.50" },
-    { name: "Combination L", description: "Beef Tostada, Burrito, + Flauta", price: "$11.95" },
-    { name: "Combination M", description: "Chile Relleno + Fajita Quesadilla", price: "$14.50" },
-    { name: "Combination N", description: "Two Mini Beef Quesadillas, Rice, + Beans", price: "$11.95" },
-    { name: "Combination O", description: "Two Tacos, Rice, + Beans", price: "$11.50" },
-    { name: "Combination P", description: "Chile Relleno, Burrito, + Taco", price: "$12.75" },
-    { name: "Combination Q", description: "Two Tamales, Rice, + Beans", price: "$12.75" }
+    { name: "Combination A", description: "Taco, Enchilada, Rice, + Beans", price: "$12.95" },
+    { name: "Combination B", description: "Chile Relleno, Rice, + Beans", price: "$12.75" },
+    { name: "Combination C", description: "Cheese Enchilada, Rice, + Beans", price: "$11.25" },
+    { name: "Combination D", description: "Taco, Enchilada, + Burrito", price: "$12.95" },
+    { name: "Combination E", description: "Chile Relleno, Taco, Enchilada, Rice, + Beans", price: "$15.50" },
+    { name: "Combination F", description: "Chalupa, Taco, Rice, + Beans", price: "$12.95" },
+    { name: "Combination G", description: "Two Beef Enchiladas, Taco, + Beans", price: "$12.95" },
+    { name: "Combination H", description: "Guacamole Tostada, Enchilada, Rice, + Beans", price: "$12.75" },
+    { name: "Combination I", description: "Enchilada, Burrito, Rice, + Beans", price: "$13.75" },
+    { name: "Combination J", description: "Burrito, Rice, + Beans", price: "$12.50" },
+    { name: "Combination K", description: "Burrito, Chalupa, Enchilada, + Taco", price: "$13.50" },
+    { name: "Combination L", description: "Beef Tostada, Burrito, + Flauta", price: "$12.95" },
+    { name: "Combination M", description: "Chile Relleno + Fajita Quesadilla", price: "$15.50" },
+    { name: "Combination N", description: "Two Mini Beef Quesadillas, Rice, + Beans", price: "$12.95" },
+    { name: "Combination O", description: "Two Tacos, Rice, + Beans", price: "$12.50" },
+    { name: "Combination P", description: "Chile Relleno, Burrito, + Taco", price: "$13.75" },
+    { name: "Combination Q", description: "Two Tamales, Rice, + Beans", price: "$13.75" }
   ],
   delmar: [
     {
       name: "Coctel de Camarón",
       description: "Shrimp, clamato juice, avocado, onion, cilantro, tomato, saltine crackers",
-      price: "$18"
+      price: "$19"
     },
     {
       name: "Fajitas de Camarón",
       description: "Shrimp, sauteed onions, bell peppers, tomato, rice, beans, guacamole salad, pico de gallo, tortillas",
-      price: "For 1: $23 / For 2: $42"
+      price: "For 1: $24 / For 2: $44"
     },
     {
       name: "Camarones al Mojo de Ajo",
       description: "Shrimp, butter + garlic sauce, rice, beans, sour cream, guacamole salad",
-      price: "$18"
+      price: "$19"
     },
     {
       name: "Filetes de Tilapia",
       description: "Marinated tilapia, grilled onions, bell peppers, rice, steamed vegetables",
-      price: "$18"
+      price: "$19"
     },
     {
       name: "Plato del Mar",
       description: "Fried shrimp, grilled-roasted shrimp, grilled tilapia filets, rice, sour cream, guacamole salad",
-      price: "$23"
+      price: "$24"
     },
     {
       name: "Camarones a la Parrilla",
       description: "2 skewers of grilled shrimp, rice, beans, sour cream, guacamole salad",
-      price: "$18"
+      price: "$19"
     }
   ],
   delacasa: [
     {
       name: "Alambres",
       description: "Grilled steak, onions, bell peppers, bacon, mushrooms, cheese",
-      price: "$19"
+      price: "$20"
     },
     {
       name: "Fajitas",
       description: "Grilled steak or grilled chicken, sauteed onions, bell peppers, tomato",
-      price: "For 1: $19 / For 2: $36"
+      price: "For 1: $20 / For 2: $38"
     },
     {
       name: "Texas Fajitas",
       description: "Grilled shrimp, steak, and grilled chicken, sauteed onions, bell peppers, tomato",
-      price: "For 1: $23 / For 2: $42"
+      price: "For 1: $24 / For 2: $44"
     },
     {
       name: "Fajitas al Pastor",
       description: "Marinated pork, sauteed onions, pineapple",
-      price: "$19"
+      price: "$20"
     },
     {
       name: "Pechuga Azteca",
       description: "Grilled chicken breast, salsa verde, cheese, spinach, sauteed onions, bell peppers",
-      price: "$20"
+      price: "$21"
     },
     {
       name: "Carne Asada",
       description: "Sirloin steak filet, sauteed onions, bell peppers",
-      price: "$19"
+      price: "$20"
     },
     {
       name: "Molcajete",
       description: "Grilled steak, chicken, shrimp, chorizo, grilled queso fresco, poblano and roasted green onions",
-      price: "$25"
+      price: "$27"
     }
   ],
   almuerzo: [
     {
       name: "1. Burrito, Taco, Enchilada",
       description: "Served with Chalupa",
-      price: "$10.50"
+      price: "$11.50"
     },
     {
       name: "2. Taco, Burrito",
@@ -492,7 +492,7 @@ const menuData = {
     {
       name: "15. Burrito, Enchilada, Rice",
       description: "Served with Beans",
-      price: "$10.50"
+      price: "$11.50"
     },
     {
       name: "16. Enchilada, Rice",
@@ -517,7 +517,7 @@ const menuData = {
     {
       name: "20. Hot & Spicy Burrito",
       description: "",
-      price: "$10.50"
+      price: "$11.50"
     },
     {
       name: "21. Bean Burrito, Cheese Enchilada",
@@ -527,7 +527,7 @@ const menuData = {
     {
       name: "22. Fajitas",
       description: "Steak or Chicken",
-      price: "$15.50"
+      price: "$16.50"
     },
     {
       name: "23. Cheese Enchilada, Chicken Enchilada",
@@ -542,7 +542,7 @@ const menuData = {
     {
       name: "25. Carne Asada",
       description: "",
-      price: "$15.50"
+      price: "$16.50"
     },
     {
       name: "26. Chicken Tostada",
@@ -552,7 +552,7 @@ const menuData = {
     {
       name: "27. Huevos Con Chorizo, Rice",
       description: "Served with Beans",
-      price: "$11.50"
+      price: "$12.50"
     },
     {
       name: "28. Huevos Rancheros, Rice",
@@ -562,7 +562,7 @@ const menuData = {
     {
       name: "29. Fajita Burrito Verde, Rice",
       description: "Served with Beans",
-      price: "$11.50"
+      price: "$12.50"
     },
     {
       name: "30. Nachos",
@@ -577,70 +577,70 @@ const menuData = {
     {
       name: "32. Taco Salad",
       description: "Steak or Grilled Chicken",
-      price: "$11.50"
+      price: "$12.50"
     },
     {
       name: "33. Sandwich De Fajita",
       description: "Served with French Fries",
-      price: "$11.50"
+      price: "$12.50"
     },
     {
       name: "34. Casa Special",
       description: "",
-      price: "$11.50"
+      price: "$12.50"
     }
   ],
   kids: [
     {
       name: "1. Grilled Chicken Strips",
       description: "Served with fries",
-      price: "$7.95"
+      price: "$8.50"
     },
     {
       name: "2. Enchilada",
       description: "Served with rice and beans",
-      price: "$6.25"
+      price: "$6.75"
     },
     {
       name: "3. Burrito",
       description: "Served with rice and beans",
-      price: "$6.25"
+      price: "$6.75"
     },
     {
       name: "4. Taco",
       description: "Served with rice and beans",
-      price: "$6.25"
+      price: "$6.75"
     },
     {
       name: "5. Quesadilla",
       description: "Served with rice and beans",
-      price: "$6.25"
+      price: "$6.75"
     },
     {
       name: "6. Hot Dog",
       description: "Served with fries",
-      price: "$6.25"
+      price: "$6.75"
     },
     {
       name: "7. Pepperoni Pizza",
       description: "",
-      price: "$6.25"
+      price: "$6.75"
     },
     {
       name: "8. Chicken Tenders",
       description: "Served with fries",
-      price: "$7.95"
+      price: "$8.50"
     },
     {
       name: "9. Mini Taco Salad",
       description: "",
-      price: "$6.25"
+      price: "$6.75"
     }
   ],
   drinks: [
-    { name: "Soft Drinks", description: "Coke, diet coke, coke zero, sprite, lemonade, fanta, Mr. Pibb, tea, coffee", price: "$3.25" },
-    { name: "Cerveza Mexicana", description: "Corona Extra, Corona Light, Tecate, Modelo Especial, Negra Modelo, Dos Equis Lager, Dos Equis Anber, Pacifico, Sol, Victoria", price: "$5.50" },
-    { name: "Cerveza Domestica", description: "Budweister, Bud Light, Bud Light Lime, Coors Light, Miller Light, Michelob Ultra", price: "$5.00" }
+    { name: "Soft Drinks", description: "Coke, diet coke, coke zero, sprite, lemonade, fanta, Mr. Pibb, tea, coffee", price: "$3.75" },
+    { name: "Cerveza Mexicana", description: "Corona Extra, Corona Light, Tecate, Modelo Especial, Negra Modelo, Dos Equis Lager, Dos Equis Anber, Pacifico, Sol, Victoria", price: "$6.00" },
+    { name: "Cerveza Domestica", description: "Budweister, Bud Light, Bud Light Lime, Coors Light, Miller Light, Michelob Ultra", price: "$5.50" }
   ],
   catering: [
     {
@@ -658,19 +658,19 @@ const menuData = {
   ],
 };
 
-  const categories = [
-    { id: 'appetizers', label: 'Appetizers & Soups' },
-    { id: 'aLaCarta', label: 'A La Carta (1-16)' },
-    { id: 'vegetarianAndChicken', label: 'Chicken & Veggie (17-24)' },
-    { id: 'platosMexicanos', label: 'Platos Mexicanos (25-49)' },
-    { id: 'combinations', label: 'Combinations (A-Q)' },
-    { id: 'delmar', label: 'Del Mar (Seafood)' },
-    { id: 'delacasa', label: 'De La Casa (House Specialties)' },
-    { id: 'almuerzo', label: 'Almuerzo (Lunch)' },
-    { id: 'catering', label: 'Catering Menu' },
-    { id: 'kids', label: 'Kids Menu' },
-    { id: 'drinks', label: 'Beverages' }
-  ];
+const categories = [
+  { id: 'appetizers', label: 'Appetizers & Soups' },
+  { id: 'aLaCarta', label: 'A La Carta (1-16)' },
+  { id: 'vegetarianAndChicken', label: 'Chicken & Veggie (17-24)' },
+  { id: 'platosMexicanos', label: 'Platos Mexicanos (25-49)' },
+  { id: 'combinations', label: 'Combinations (A-Q)' },
+  { id: 'delmar', label: 'Del Mar (Seafood)' },
+  { id: 'delacasa', label: 'De La Casa (House Specialties)' },
+  { id: 'almuerzo', label: 'Almuerzo (Lunch)' },
+  { id: 'catering', label: 'Catering Menu' },
+  { id: 'kids', label: 'Kids Menu' },
+  { id: 'drinks', label: 'Beverages' }
+];
 
   const getSubcategoryTitle = (category: string, subcategory: string) => {
     const titles: Record<string, Record<string, string>> = {
